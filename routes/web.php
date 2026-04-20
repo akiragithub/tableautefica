@@ -18,7 +18,7 @@ Route::get('/', [TeficaController::class, 'index']);
 Route::post('/generate', [TeficaController::class, 'generate']);
 Route::post('/export', [TeficaController::class, 'export']);
 Route::get('/email', [TeficaController::class, 'emailForm']);
-Route::post('/send-email', [TeficaController::class, 'sendEmail']);
+Route::post('/send-email', [TeficaController::class, 'sendEmail']); 
 
 
 
